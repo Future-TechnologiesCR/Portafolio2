@@ -1,10 +1,32 @@
 import React from 'react';
-import './Header.css';
+import './Header.scss';
 
-function Header() {
+const Header = () => {
+  const toggleNav = () => {
+    const navBtn = document.querySelector('.hamburger');
+    const navMobile = document.querySelector('.nav__mobile');
+
+    navBtn.classList.toggle('is-active');
+    navMobile.classList.toggle('show-nav');
+  };
+
+  const toggleNavLinks = () => {
+    const navLinks = document.querySelectorAll('.nav__link-mobile');
+
+    navLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        const navBtn = document.querySelector('.hamburger');
+        const navMobile = document.querySelector('.nav__mobile');
+
+        navBtn.classList.remove('is-active');
+        navMobile.classList.remove('show-nav');
+      });
+    });
+  };
+
   return (
-    <div className='Header'>
-      <nav ClassName='nav__desktop'>
+    <>
+      <nav className='nav__desktop'>
         <ul className='nav__links nav__links-desktop'>
           <li>
             <a href='#home' className='nav__link nav__link-desktop'>
@@ -34,38 +56,58 @@ function Header() {
         </ul>
       </nav>
 
-      <button ClassName='hamburger hamburger--spring' type='button'>
-        <span ClassName='hamburger-box'>
-          <span ClassName='hamburger-inner'></span>
+      <button
+        className='hamburger hamburger--spring'
+        type='button'
+        onClick={toggleNav}
+      >
+        <span className='hamburger-box'>
+          <span className='hamburger-inner'></span>
         </span>
       </button>
 
-      <nav ClassName='nav__mobile'>
-        <ul ClassName='nav__links'>
+      <nav className='nav__mobile'>
+        <ul className='nav__links' onClick={toggleNavLinks}>
           <li>
-            <a href='#home' ClassName='nav__link nav__link-mobile'>
+            <a href='#home' className='nav__link nav__link-mobile'>
               Home
             </a>
           </li>
           <li>
-            <a href='#about-me' ClassName='nav__link nav__link-mobile'>
+            <a href='#about-me' className='nav__link nav__link-mobile'>
               About Us
             </a>
           </li>
           <li>
-            <a href='#resume' ClassName='nav__link nav__link-mobile'>
+            <a href='#resume' className='nav__link nav__link-mobile'>
               Resume
             </a>
           </li>
           <li>
-            <a href='#contact' ClassName='nav__link nav__link-mobile'>
+            <a href='#contact' className='nav__link nav__link-mobile'>
               Contact Us
             </a>
           </li>
         </ul>
       </nav>
-    </div>
+
+      <header className='header scroll-spy-section' id='home'>
+        <div className='header__text'>
+          <h1 className='header__title'>
+            <div>Hi! 👋🏻</div>
+            <div>We Are Future Technologies</div>
+          </h1>
+          <p className='header__paragraph'>
+            We are a Web Development Company and Hosting, we are here to help
+            you with your projects.
+          </p>
+        </div>
+        <a href='#about-me' className='header__link'>
+          <i className='fa-solid fa-arrow-down header__link-arrow'></i>
+        </a>
+      </header>
+    </>
   );
-}
+};
 
 export default Header;
