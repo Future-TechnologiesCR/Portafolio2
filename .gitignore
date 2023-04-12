@@ -19,3 +19,8 @@ lerna-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+node_modules/
+
+# add all the files except the dist folder
+!dist/
