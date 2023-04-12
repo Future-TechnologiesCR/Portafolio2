@@ -20,7 +20,12 @@ lerna-debug.log*
 *.sln
 *.sw?
 
-node_modules/
+node_modules
 
-# add all the files except the dist folder
-!dist/
+package-lock.json
+package.json
+
+public
+src
+index.html
+vite.config.js
