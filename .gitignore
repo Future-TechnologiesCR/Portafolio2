@@ -2,5 +2,6 @@
 !dist/
 !dist/*
 !dist/assets/*
+!.htaccess
 
 
