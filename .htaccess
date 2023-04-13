@@ -1,3 +1,4 @@
 RewriteEngine On
 RewriteRule ^$ /dist/index.html [L]
 RewriteRule ^assets/(.*)$ /dist/assets/$1 [L]
+RewriteRule ^(.*)$ /dist/$1 [L]
