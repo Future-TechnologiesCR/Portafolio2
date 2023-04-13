@@ -14,7 +14,7 @@ const About = () => {
           />
           <div className='about-me__card-text'>
             <p className='about-me__card-paragraph'>
-              Hola Mundo
+              Hola Mundo soy Pedro Pascal uwu
             </p>
             <p className='about-me__card-paragraph'>
               We like to work <span className='bold-text'>Web Development</span>
