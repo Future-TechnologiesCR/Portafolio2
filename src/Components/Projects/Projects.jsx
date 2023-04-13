@@ -73,6 +73,11 @@ const Projects = () => {
           </div>
         </div>
       </div>
+      {/* Crear nueva pagina para mostrar todos los proyectos */}
+      <a href='#' className='btn'>
+        Show more
+        <div className='shadow'></div>
+      </a>
     </section>
   );
 };

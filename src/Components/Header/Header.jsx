@@ -28,6 +28,7 @@ const Header = () => {
     <>
       <nav className='nav__desktop'>
         <ul className='nav__links nav__links-desktop'>
+          {/* Agregar logo al header */}
           <li>
             <a href='#home' className='nav__link nav__link-desktop'>
               <i className='fa-solid fa-house'></i> Home
@@ -43,11 +44,11 @@ const Header = () => {
               <i className='fa-solid fa-laptop-code'></i> Projects & Works
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href='#resume' className='nav__link nav__link-desktop'>
               <i className='fa-solid fa-file'></i> Resume{' '}
             </a>
-          </li>
+          </li> */}
           <li>
             <a href='#contact' className='nav__link nav__link-desktop'>
               <i className='fa-solid fa-at'></i> Contact Us
