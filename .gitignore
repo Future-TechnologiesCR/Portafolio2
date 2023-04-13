@@ -3,5 +3,4 @@
 !dist/*
 !dist/assets/*
 !.htaccess
-
-
+!index.html
