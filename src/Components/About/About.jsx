@@ -14,9 +14,7 @@ const About = () => {
           />
           <div className='about-me__card-text'>
             <p className='about-me__card-paragraph'>
-              Hi once again, we are Future Technologies, we are a Web
-              Development Company, we are a team of 3 peoples highly trained to
-              develop all your projects and ideas!
+              Hola Mundo
             </p>
             <p className='about-me__card-paragraph'>
               We like to work <span className='bold-text'>Web Development</span>
