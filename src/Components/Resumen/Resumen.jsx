@@ -7,13 +7,13 @@ const Resumen = () => {
 
       <div className='wrapper'>
         <div className='resume-container'>
-          <div className='resume__title resume__section'>
+          {/* <div className='resume__title resume__section'>
             <h2 className='resume__name'>
               Futures Technologies <hr />
               <br />
               Information
             </h2>
-          </div>
+          </div> */}
           <div className='resume__contact resume__section'>
             <h3 className='resume__card-heading'>
               Contact
@@ -64,7 +64,7 @@ const Resumen = () => {
               </li>
             </ul>
           </div>
-          <div className='resume__skills resume__section'>
+          {/* <div className='resume__skills resume__section'>
             <h3 className='resume__card-heading'>
               Skills and software
               <div className='shadow'></div>
@@ -101,8 +101,8 @@ const Resumen = () => {
               <li className='resume__framed-list-item'>Windows</li>
               <li className='resume__framed-list-item'>MacOS</li>
             </ul>
-          </div>
-          <div className='resume__languages resume__section'>
+          </div> */}
+          {/* <div className='resume__languages resume__section'>
             <h3 className='resume__card-heading'>
               Foreign languages
               <div className='shadow'></div>
@@ -115,7 +115,7 @@ const Resumen = () => {
                 <span className='bold-text'>English</span> - advanced B-2
               </li>
             </ul>
-          </div>
+          </div> */}
           <div className='resume__experience resume__section'>
             <h3 className='resume__card-heading'>
               Work experience
@@ -137,7 +137,7 @@ const Resumen = () => {
               </li>
             </ul>
           </div>
-          <div className='resume__certificates resume__section'>
+          {/* <div className='resume__certificates resume__section'>
             <h3 className='resume__card-heading'>
               Certificates
               <div className='shadow'></div>
@@ -178,8 +178,8 @@ const Resumen = () => {
                 </a>
               </li>
             </ul>
-          </div>
-          <div className='resume__education resume__section'>
+          </div> */}
+          {/* <div className='resume__education resume__section'>
             <h3 className='resume__card-heading'>
               Education
               <div className='shadow'></div>
@@ -193,7 +193,7 @@ const Resumen = () => {
                 <p>CTP de Aserrí</p>
               </li>
             </ul>
-          </div>
+          </div> */}
           <div className='resume__interests resume__section'>
             <h3 className='resume__card-heading'>
               Interest and posible future projects
