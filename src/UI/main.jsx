@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../Components/Header/Header';
 import Footer from '../Components/Footer/Footer';
 import Contact from '../Components/Contact/Contact';
-// import Resumen from '../Components/Resumen/Resumen';
+import Resumen from '../Components/Resumen/Resumen';
 import Projects from '../Components/Projects/Projects';
 import About from '../Components/About/About';
 import './main.scss';
@@ -14,7 +14,7 @@ const Main = () => {
       <main>
         <About />
         <Projects />
-        {/* <Resumen /> */}
+        <Resumen />
         <Contact />
       </main>
       <Footer />
