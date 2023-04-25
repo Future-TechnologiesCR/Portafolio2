@@ -7,7 +7,7 @@ const Resumen = () => {
 
       <div className='wrapper'>
         <div className='resume-container'>
-          {/* <div className='resume__title resume__section'>
+          {/* <div className='resume__title resume__section'> 
             <h2 className='resume__name'>
               Futures Technologies <hr />
               <br />
@@ -116,7 +116,7 @@ const Resumen = () => {
               </li>
             </ul>
           </div> */}
-          <div className='resume__experience resume__section'>
+          {/* <div className='resume__experience resume__section'>
             <h3 className='resume__card-heading'>
               Work experience
               <div className='shadow'></div>
@@ -136,7 +136,7 @@ const Resumen = () => {
                 </div>
               </li>
             </ul>
-          </div>
+          </div> */}
           {/* <div className='resume__certificates resume__section'>
             <h3 className='resume__card-heading'>
               Certificates
