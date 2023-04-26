@@ -25,7 +25,7 @@ const Resumen = () => {
                 >
                   <i className='fa-brands fa-whatsapp'></i>
                 </a>
-
+                
                 <a
                   className='resume__link resume__icon'
                   href='mailto:pedro_borbon@futuretechcr.com '

@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.scss';
+import logo from '../../img/future.webp';
 
 const Header = () => {
   const toggleNav = () => {
@@ -28,7 +29,6 @@ const Header = () => {
     <>
       <nav className='nav__desktop'>
         <ul className='nav__links nav__links-desktop'>
-          {/* Agregar logo al header */}
           <li>
             <a href='#home' className='nav__link nav__link-desktop'>
               <i className='fa-solid fa-house'></i> Home
