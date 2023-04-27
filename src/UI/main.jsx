@@ -7,6 +7,8 @@ import Resumen from '../Components/Resumen/Resumen';
 import Projects from '../Components/Projects/Projects';
 import About from '../Components/About/About';
 import AboutUs from '../Components/AboutUs/AboutUs';
+import ProjectsPage from '../Components/ProjectsPage/ProjectsPage';
+import Greeting from '../Components/Header/Greeting';
 import './main.scss';
 
 
@@ -18,13 +20,15 @@ const Main = () => {
         <Routes>
           <Route path="/" element={
             <main>
+              <Greeting />
               <About />
               <Projects />
               <Resumen />
               <Contact />
             </main>
           } />
-          <Route path="/aboutus" element={<AboutUs />} />
+          <Route path="/aboutus" element={<AboutUs />}/>
+          <Route path="/projects" element={<ProjectsPage />}/>
         </Routes>
         <Footer />
       </Router>
