@@ -33,37 +33,57 @@ const Header = () => {
             {/* <NavLink to="/" exact activeClassName="active" className="nav__link nav__link-desktop">
               <i className="fa-solid fa-house"></i> Home
             </NavLink> */}
-            <NavLink to="/#home" activeClassName="active" className="nav__link nav__link-desktop">
+            <NavLink
+              to="/#home"
+              activeClassName="active"
+              className="nav__link nav__link-desktop"
+            >
               <i className="fa-solid fa-house"></i> Home
-            </NavLink>
-          </li>
-          <li>
-            {/*  go to id contact */}
-            <NavLink to="/#contact" activeClassName="active" className="nav__link nav__link-desktop">
-              <i className="fa-solid fa-at"></i> Contact Us
-            </NavLink>
-          </li>
-          <li>
-            {/* <a href="#projects" className="nav__link nav__link-desktop">
-              <i className="fa-solid fa-laptop-code"></i> Projects & Works
-            </a> */}
-            <NavLink to="/#projects" activeClassName="active" className="nav__link nav__link-desktop">
-              <i className="fa-solid fa-laptop-code"></i> Projects & Works
             </NavLink>
           </li>
           <li>
             {/* <a href="#about-me" className="nav__link nav__link-desktop">
               <i className="fa-solid fa-user"></i>About Us
             </a> */}
-            <NavLink to="/#about-me" activeClassName="active" className="nav__link nav__link-desktop">
+            <NavLink
+              to="/#about-me"
+              activeClassName="active"
+              className="nav__link nav__link-desktop"
+            >
               <i className="fa-solid fa-user"></i>About Us
+            </NavLink>
+          </li>
+          <li>
+            {/* <a href="#projects" className="nav__link nav__link-desktop">
+              <i className="fa-solid fa-laptop-code"></i> Projects & Works
+            </a> */}
+            <NavLink
+              to="/#projects"
+              activeClassName="active"
+              className="nav__link nav__link-desktop"
+            >
+              <i className="fa-solid fa-laptop-code"></i> Projects & Works
+            </NavLink>
+          </li>
+          <li>
+            {/*  go to id contact */}
+            <NavLink
+              to="/#resume"
+              activeClassName="active"
+              className="nav__link nav__link-desktop"
+            >
+              <i className="fa-solid fa-at"></i> Resume
             </NavLink>
           </li>
           <li>
             {/* <a href="#contact" className="nav__link nav__link-desktop">
               <i className="fa-solid fa-at"></i> Contact Us
             </a> */}
-            <NavLink to="/#contact" activeClassName="active" className="nav__link nav__link-desktop">
+            <NavLink
+              to="/#contact"
+              activeClassName="active"
+              className="nav__link nav__link-desktop"
+            >
               <i className="fa-solid fa-at"></i> Contact Us
             </NavLink>
           </li>
@@ -83,35 +103,56 @@ const Header = () => {
       <nav className="nav__mobile">
         <ul className="nav__links" onClick={toggleNavLinks}>
           <li>
-            <NavLink to="/#home" activeClassName="active" className="nav__link nav__link-mobile">
+            <NavLink
+              to="/#home"
+              activeClassName="active"
+              className="nav__link nav__link-mobile"
+            >
               Home
             </NavLink>
           </li>
           <li>
-            <NavLink to="/#contact" activeClassName="active" className="nav__link nav__link-mobile">
-              Contact Us
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/#projects" activeClassName="active" className="nav__link nav__link-mobile">
-              Projects & Works
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/#about-me" activeClassName="active" className="nav__link nav__link-mobile">
+            <NavLink
+              to="/#about-me"
+              activeClassName="active"
+              className="nav__link nav__link-mobile"
+            >
               About Us
             </NavLink>
           </li>
           <li>
-            <NavLink to="/#contact" activeClassName="active" className="nav__link nav__link-mobile">
+            <NavLink
+              to="/#projects"
+              activeClassName="active"
+              className="nav__link nav__link-mobile"
+            >
+              Projects & Works
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/#resume"
+              activeClassName="active"
+              className="nav__link nav__link-mobile"
+            >
+              Resume
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/#contact"
+              activeClassName="active"
+              className="nav__link nav__link-mobile"
+            >
               Contact Us
             </NavLink>
           </li>
         </ul>
       </nav>
-      
     </>
   );
 };
 
 export default Header;
+
+// cual es la metodologia de desarrollo del ciclo de vida de productos
