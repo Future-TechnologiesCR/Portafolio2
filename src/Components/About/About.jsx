@@ -1,4 +1,5 @@
 import React from 'react';
+import { HashLink as NavLink } from "react-router-hash-link";
 import logo from '../../img/future.webp';
 
 const About = () => {
@@ -40,10 +41,9 @@ const About = () => {
               below. Thanks!
             </p>
             {/* Crear ruta a otra pagina para extender el texto */}
-            <a href='#resume' className='btn'>
-              Show more
-              <div className='shadow'></div>
-            </a>
+            <NavLink to="/aboutus" className="btn btn--primary">
+              Read More
+            </NavLink>
           </div>
         </div>
       </div>

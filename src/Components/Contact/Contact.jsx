@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <section className='contact section scroll-spy-section' id='contact'>
+    <section className='contact section scroll-spy-section' id='contact' data-scroll-spy-title='Contact'>
       <h2 className='heading-underline'>Contact</h2>
       <div className='wrapper'>
         <form
