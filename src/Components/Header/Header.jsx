@@ -42,21 +42,20 @@ const Header = () => {
           </li>
           <li>
             <NavLink
-              // link to about us
-              to="/#about-me"
+              to="/#services"
               activeClassName="active"
               className="nav__link nav__link-desktop"
             >
-              <i className="fa-solid fa-user"></i>Quienes somos
+              <i className="fa-solid fa-tools"></i>Servicios
             </NavLink>
           </li>
           <li>
             <NavLink
-              to="/projects"
+              to="/#processes"
               activeClassName="active"
               className="nav__link nav__link-desktop"
             >
-              <i className="fa-solid fa-tools"></i> Servicios
+              <i className="fa-solid fa-tools"></i>Procesos
             </NavLink>
           </li>
           <li>
@@ -66,6 +65,16 @@ const Header = () => {
               className="nav__link nav__link-desktop"
             >
               <i className="fa-solid fa-laptop-code"></i>Proyectos
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              // link to about us
+              to="/#about-me"
+              activeClassName="active"
+              className="nav__link nav__link-desktop"
+            >
+              <i className="fa-solid fa-user"></i>Quienes somos
             </NavLink>
           </li>
           <li>
@@ -103,11 +112,20 @@ const Header = () => {
           </li>
           <li>
             <NavLink
-              to="/#about-me"
+              to="/#services"
               activeClassName="active"
-              className="nav__link nav__link-mobile"
+              className="nav__link nav__link-desktop"
             >
-              Quienes somos
+              Servicios
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/projects"
+              activeClassName="active"
+              className="nav__link nav__link-desktop"
+            >
+              Procesos
             </NavLink>
           </li>
           <li>
@@ -117,6 +135,15 @@ const Header = () => {
               className="nav__link nav__link-mobile"
             >
               Proyectos
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/#about-me"
+              activeClassName="active"
+              className="nav__link nav__link-mobile"
+            >
+              Quienes somos
             </NavLink>
           </li>
           {/* <li>

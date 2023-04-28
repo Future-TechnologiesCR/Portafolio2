@@ -1,16 +1,17 @@
 import React from 'react';
 import { Routes, HashRouter as Router, Route } from 'react-router-dom';
 import Header from '../Components/Header/Header';
-import Footer from '../Components/Footer/Footer';
-import Contact from '../Components/Contact/Contact';
-import Resumen from '../Components/Resumen/Resumen';
-import Projects from '../Components/Projects/Projects';
-import About from '../Components/About/About';
-import AboutUs from '../Components/AboutUs/AboutUs';
-import ProjectsPage from '../Components/ProjectsPage/ProjectsPage';
 import Greeting from '../Components/Header/Greeting';
+import Services from '../Components/Services/Services';
+import Processes from '../Components/Processes/Processes';
+import Projects from '../Components/Projects/Projects';
+import AboutUs from '../Components/AboutUs/AboutUs';
+import Contact from '../Components/Contact/Contact';
+import Footer from '../Components/Footer/Footer';
+import Resumen from '../Components/Resumen/Resumen';
+import ProjectsPage from '../Components/ProjectsPage/ProjectsPage';
+import About from '../Components/About/About';
 import './main.scss';
-
 
 const Main = () => {
   return (
@@ -21,9 +22,12 @@ const Main = () => {
           <Route path="/" element={
             <main>
               <Greeting />
-              <About />
+              <Services />
+              <Processes />
               <Projects />
-              <Resumen />
+              <About />
+              {/* Elimiar Resumen pero antes salvar la seccion de contact */}
+              <Resumen /> 
               <Contact />
             </main>
           } />
