@@ -154,5 +154,3 @@ const Header = () => {
 };
 
 export default Header;
-
-// cual es la metodologia de desarrollo del ciclo de vida de productos
