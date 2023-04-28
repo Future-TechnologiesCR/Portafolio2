@@ -64,7 +64,7 @@ const Resumen = () => {
             </h3>
             <ul className='resume__list'>
               <li className='resume__list-item'>
-                Hacer páginas web para empresas
+                Desarrollar páginas web personalizadas para empresas en diferentes sectores
               </li>
               <li className='resume__list-item'>
                 Ser una empresa reconocida en el país
@@ -73,7 +73,7 @@ const Resumen = () => {
                 Formar alianzas con grandes empresas 
               </li>
               <li className='resume__list-item'>Tener un gran equipo de desarrolladorees </li>
-              <li className='resume__list-item'>Work a lot</li>
+              <li className='resume__list-item'>Formar una comunidad de programadores</li>
             </ul>
           </div>
         </div>
