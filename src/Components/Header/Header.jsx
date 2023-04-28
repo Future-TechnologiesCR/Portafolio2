@@ -30,15 +30,12 @@ const Header = () => {
       <nav className="nav__desktop">
         <ul className="nav__links nav__links-desktop">
           <li>
-            {/* <NavLink to="/" exact activeClassName="active" className="nav__link nav__link-desktop">
-              <i className="fa-solid fa-house"></i> Home
-            </NavLink> */}
             <NavLink
               to="/#home"
               activeClassName="active"
               className="nav__link nav__link-desktop"
             >
-              <i className="fa-solid fa-house"></i> Home
+              <i className="fa-solid fa-house"></i> Inicio
             </NavLink>
           </li>
           <li>
@@ -50,7 +47,7 @@ const Header = () => {
               activeClassName="active"
               className="nav__link nav__link-desktop"
             >
-              <i className="fa-solid fa-user"></i>About Us
+              <i className="fa-solid fa-user"></i>Quienes somos
             </NavLink>
           </li>
           <li>
@@ -62,7 +59,7 @@ const Header = () => {
               activeClassName="active"
               className="nav__link nav__link-desktop"
             >
-              <i className="fa-solid fa-laptop-code"></i> Projects & Works
+              <i className="fa-solid fa-laptop-code"></i>Proyectos
             </NavLink>
           </li>
           <li>
@@ -72,19 +69,17 @@ const Header = () => {
               activeClassName="active"
               className="nav__link nav__link-desktop"
             >
+              {/* Eliminar seccion pero antes llevar la tarjeta de contactos al componente contacto */}
               <i className="fa-solid fa-at"></i> Resume
             </NavLink>
           </li>
           <li>
-            {/* <a href="#contact" className="nav__link nav__link-desktop">
-              <i className="fa-solid fa-at"></i> Contact Us
-            </a> */}
             <NavLink
               to="/#contact"
               activeClassName="active"
               className="nav__link nav__link-desktop"
             >
-              <i className="fa-solid fa-at"></i> Contact Us
+              <i className="fa-solid fa-at"></i> Cont&aacute;tanos
             </NavLink>
           </li>
         </ul>
@@ -108,7 +103,7 @@ const Header = () => {
               activeClassName="active"
               className="nav__link nav__link-mobile"
             >
-              Home
+              Inicio
             </NavLink>
           </li>
           <li>
@@ -117,7 +112,7 @@ const Header = () => {
               activeClassName="active"
               className="nav__link nav__link-mobile"
             >
-              About Us
+              Quienes somos
             </NavLink>
           </li>
           <li>
@@ -126,10 +121,11 @@ const Header = () => {
               activeClassName="active"
               className="nav__link nav__link-mobile"
             >
-              Projects & Works
+              Proyectos
             </NavLink>
           </li>
           <li>
+            {/* Eliminar de la hamburguesa */}
             <NavLink
               to="/#resume"
               activeClassName="active"
@@ -144,7 +140,7 @@ const Header = () => {
               activeClassName="active"
               className="nav__link nav__link-mobile"
             >
-              Contact Us
+              Cont&aacute;tanos
             </NavLink>
           </li>
         </ul>
