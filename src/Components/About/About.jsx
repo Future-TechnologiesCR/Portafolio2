@@ -5,7 +5,7 @@ import logo from '../../img/future.webp';
 const About = () => {
   return (
     <section className='about-me section scroll-spy-section' id='about-me'>
-      <h2 className='heading-underline'>About Us</h2>
+      <h2 className='heading-underline'>Sobre Nosotros</h2>
       <div className='wrapper'>
         <div className='about-me__card'>
           <img

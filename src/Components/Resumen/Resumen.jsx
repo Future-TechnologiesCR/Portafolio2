@@ -3,7 +3,7 @@ import React from 'react';
 const Resumen = () => {
   return (
     <section className='resume section scroll-spy-section' id='resume'>
-      <h2 className='heading-underline'>Resume</h2>
+      <h2 className='heading-underline'>Resumen</h2>
 
       <div className='wrapper'>
         <div className='resume-container'>
@@ -16,7 +16,7 @@ const Resumen = () => {
               <li className='resume__list-item'>
                 pedro_borbon@futuretechcr.com
               </li>
-              <li className='resume__list-item'>Our Social Networks 👇</li>
+              <li className='resume__list-item'>Nuestras redes sociales 👇</li>
               <li className='resume__list-item resume__list-links'>
                 <a
                   className='resume__link resume__icon'
@@ -59,20 +59,20 @@ const Resumen = () => {
           </div>
           <div className='resume__interests resume__section'>
             <h3 className='resume__card-heading'>
-              Interest and posible future projects
+              Intereses Y Proyecciones Futuras
               <div className='shadow'></div>
             </h3>
             <ul className='resume__list'>
               <li className='resume__list-item'>
-                Create a web page for a local business
+                Hacer páginas web para empresas
               </li>
               <li className='resume__list-item'>
-                Being hired for a big company
+                Ser una empresa reconocida en el país
               </li>
               <li className='resume__list-item'>
-                Be a huge company and hire a big team of developers
+                Formar alianzas con grandes empresas 
               </li>
-              <li className='resume__list-item'>Have our own building</li>
+              <li className='resume__list-item'>Tener un gran equipo de desarrolladorees </li>
               <li className='resume__list-item'>Work a lot</li>
             </ul>
           </div>
