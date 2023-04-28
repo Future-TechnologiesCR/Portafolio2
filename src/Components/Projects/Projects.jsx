@@ -5,7 +5,7 @@ import { HashLink as NavLink } from "react-router-hash-link";
 const Projects = () => {
   return (
     <section className="projects section scroll-spy-section" id="projects">
-      <h2 className="heading-underline">Projects</h2>
+      <h2 className="heading-underline">Proyectos</h2>
       <div className="wrapper">
         <div className="projects__cards">
           <div className="projects__card">
@@ -21,10 +21,6 @@ const Projects = () => {
               <h3 className="projects__card-title heading-underline">
                 Sisea Page
               </h3>
-              <p className="projects__card-text">
-                A website made with{" "}
-                <span className="bold-text">REACT and Bootstrap</span>.
-              </p>
               <a
                 target="_blank"
                 className="projects__card-link btn"
@@ -48,7 +44,7 @@ const Projects = () => {
               <h3 className="projects__card-title heading-underline"></h3>
               <p className="projects__card-text"></p>
               <a target="_blank" className="projects__card-link btn">
-                In Progress
+                En proceso
               </a>
               <div className="shadow"></div>
             </div>
@@ -67,19 +63,15 @@ const Projects = () => {
                 <span className="bold-text"></span>
               </p>
               <a target="_blank" className="projects__card-link btn">
-                In Progress
+                En proceso
               </a>
               <div className="shadow"></div>
             </div>
           </div>
         </div>
       </div>
-      {/* <a href='#' className='btn'>
-        Show more
-        <div className='shadow'></div>
-      </a> */}
       <NavLink to="/projects" className="btn btn--primary">
-        Show more
+        Ver m&aacute;s
       </NavLink>
     </section>
   );
