@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.scss";
 import { HashLink as NavLink } from "react-router-hash-link";
+import ProjectsPage from "../ProjectsPage/ProjectsPage";
 import AboutUs from "../AboutUs/AboutUs";
 import logo from "../../img/future.webp";
 
@@ -47,6 +48,15 @@ const Header = () => {
               className="nav__link nav__link-desktop"
             >
               <i className="fa-solid fa-user"></i>Quienes somos
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/projects"
+              activeClassName="active"
+              className="nav__link nav__link-desktop"
+            >
+              <i className="fa-solid fa-tools"></i> Servicios
             </NavLink>
           </li>
           <li>
