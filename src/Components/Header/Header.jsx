@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.scss";
 import { HashLink as NavLink } from "react-router-hash-link";
+import AboutUs from "../AboutUs/AboutUs";
 import logo from "../../img/future.webp";
 
 const Header = () => {
@@ -39,10 +40,8 @@ const Header = () => {
             </NavLink>
           </li>
           <li>
-            {/* <a href="#about-me" className="nav__link nav__link-desktop">
-              <i className="fa-solid fa-user"></i>About Us
-            </a> */}
             <NavLink
+              // link to about us
               to="/#about-me"
               activeClassName="active"
               className="nav__link nav__link-desktop"
@@ -51,26 +50,12 @@ const Header = () => {
             </NavLink>
           </li>
           <li>
-            {/* <a href="#projects" className="nav__link nav__link-desktop">
-              <i className="fa-solid fa-laptop-code"></i> Projects & Works
-            </a> */}
             <NavLink
               to="/#projects"
               activeClassName="active"
               className="nav__link nav__link-desktop"
             >
               <i className="fa-solid fa-laptop-code"></i>Proyectos
-            </NavLink>
-          </li>
-          <li>
-            {/*  go to id contact */}
-            <NavLink
-              to="/#resume"
-              activeClassName="active"
-              className="nav__link nav__link-desktop"
-            >
-              {/* Eliminar seccion pero antes llevar la tarjeta de contactos al componente contacto */}
-              <i className="fa-solid fa-at"></i> Resume
             </NavLink>
           </li>
           <li>
@@ -124,8 +109,8 @@ const Header = () => {
               Proyectos
             </NavLink>
           </li>
-          <li>
-            {/* Eliminar de la hamburguesa */}
+          {/* <li>
+            //Eliminar de la hamburguesa
             <NavLink
               to="/#resume"
               activeClassName="active"
@@ -133,7 +118,7 @@ const Header = () => {
             >
               Resume
             </NavLink>
-          </li>
+          </li> */}
           <li>
             <NavLink
               to="/#contact"
