@@ -61,10 +61,6 @@ function AboutUs() {
                   servicio excepcional y una atención personalizada a cada uno
                   de nuestros clientes.
                 </p>
-                {/* Crear ruta a otra pagina para extender el texto */}
-                <NavLink to="/aboutus" className="btn btn--primary">
-                  Read More
-                </NavLink>
               </div>
             </div>
           </div>
