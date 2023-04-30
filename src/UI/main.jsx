@@ -28,7 +28,7 @@ const Main = () => {
             </main>
           } />
           <Route path="/aboutus" element={<AboutUs />}/>
-          <Route path="/projects" element={<ProjectsPage />}/>
+          <Route path="/services" element={<ProjectsPage />}/>
         </Routes>
         <Footer />
       </Router>
