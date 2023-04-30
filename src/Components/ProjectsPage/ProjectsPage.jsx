@@ -41,7 +41,8 @@ function ProjectsPage() {
     }
   };
 
-  const transitionTime = 800; // 1 second
+  const transitionTime = 1000;
+  const transitionTimeInactive = 1000;
 
   useEffect(() => {
     setIsActive(true);
@@ -51,11 +52,12 @@ function ProjectsPage() {
   }, [value]);
 
   useEffect(() => {
+    // dont use timeout for this
     setInactive(true);
     setTimeout(() => {
       setInactive(false);
-    }, transitionTime);
-  }, [isActive]);
+    }, transitionTimeInactive);
+  }, [value]);
 
   return (
     <>

@@ -281,7 +281,6 @@ textarea {
   // animation
   animation: slide-in 0.5s ease-in-out;
 
-  
   &__image {
     margin-bottom: 2rem;
     display: flex;
@@ -289,7 +288,6 @@ textarea {
     align-items: center;
     // animation
     animation: slide-in 0.5s ease-in-out;
-
 
     &-img {
       position: relative;
@@ -319,7 +317,6 @@ textarea {
     align-items: center;
     width: 40%;
     // animation
-    
 
     &-heading {
       font-size: 3rem;
@@ -336,19 +333,14 @@ textarea {
       text-align: left;
       line-height: 1.5;
       margin-bottom: 2rem;
-      transition: opacity 0.2s ease-in-out;
-      
+      transition: opacity 0.5s ease;
+      animation: slide-in 0.5s ease-in-out;
       &--active {
-        opacity: 0.2;
-        transition: opacity 0.2s ease-in-out;
+        opacity: 1;
       }
       &--inactive {
         opacity: 0;
-        transform: translateX(2rem);
-        transition: opacity 0.2s ease-in-out;
-        // fade to right animation
-        animation: fade-to-right 0.2s ease-in-out;
-
+        transition: opacity 0.5s ease-in;
       }
     }
   }
@@ -395,7 +387,7 @@ textarea {
     &-name {
       font-size: 2rem;
       margin-left: 1rem;
-      color: #1363df;
+      color: #ffff;
       margin: 2rem 0 1rem 0;
     }
   }
@@ -413,7 +405,7 @@ textarea {
 
     &::-webkit-slider-thumb {
       // make a rumble effect
-      background-image: url('../img/sliderIcon.webp');
+      background-image: url("../img/sliderIcon.webp");
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center;
@@ -423,10 +415,57 @@ textarea {
       height: 25px;
       border-radius: 50%;
       animation: rumble 0.5s infinite;
-
     }
   }
 }
+@media screen and (max-width: 768px) {
+  .slider {
+    flex-direction: column;
+    align-items: center;
+    &__image {
+      &-img {
+        display: none;
+      }
+    }
+    &__text {
+      width: 80%;
+      &-heading {
+        font-size: 3rem;
+      }
+      &-paragraph {
+        font-size: 2rem;
+        text-align: justify;
+      }
+    }
+  }
+  .buttonGroup {
+    flex-direction: column;
+    &__sliderRange {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      width: 100%;
+    }
+    &__button {
+      margin: 0 0.5rem;
+      max-width: 5rem;
+      justify-content: space-between;
+      margin: 1rem;
+      &-name {
+        margin: 1rem 0;
+      }
+    }
+    &__range-input {
+      width: 100%;
+    }
+  }
+}
+
+
+
+// ---------------------Process---------------------
+
+// ---------------------Resume---------------------
 
 .resume {
   &__section {

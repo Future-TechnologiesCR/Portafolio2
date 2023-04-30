@@ -51,7 +51,7 @@ const Header = () => {
           </li>
           <li>
             <NavLink
-              to="/services"
+              to="/#processes"
               activeClassName="active"
               className="nav__link nav__link-desktop"
             >
