@@ -17,13 +17,40 @@ function Services() {
     autoplay: true,
     autoplaySpeed: 2000,
     pauseOnHover: true,
+    vertical: false,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          vertical: false,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false,
+        },
+      },
+      {
+        breakpoint: 800,
+        settings: {
+          slidesToShow: 2,
+          vertical: true,
+          arrows: false,
+          slidesToScroll: 1,
+          spaceBetween: 30,
+          infinite: true,
+          dots: false,
+          centerMode: true,
+          scrollable: true,
+        },
+      },
+    ],
   };
   return (
     <>   
      <section className="services scroll-spy-section" id="services">
       <h2 className="heading-underline">Servicios</h2>
       <div className="wrapper">
-        <Slider {...settings} vertical={false} className="services__cards">
+        <Slider {...settings} className="services__cards">
           <div className="services__card">
             <div className="services__card-top">
               <img

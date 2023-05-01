@@ -271,70 +271,62 @@ textarea {
     }
   }
 }
+.slick-slide {
+  margin: 0 27px;
+  max-width: 12rem;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+
 
 // ------------------ SERVICES ------------------
 .services{
   margin-bottom: 0;
   padding-bottom: 0;
+
+  &__title {
+    margin-bottom: 1em;
+  }
   &__cards {
-    // show the cards in a slider
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-    -webkit-overflow-scrolling: touch;
-    &::-webkit-scrollbar {
-      display: none;
-    }
   }
-
-  &__card {
-    max-width: 30rem;
-    margin: 1em;
-    border-radius: 0.5rem;
-    @include gradient-background;
-    box-shadow: 0 0 1.5rem $dark-color;
-    overflow: hidden;
-    transition: transform 0.3s;
-    &:hover {
-      transform: scale(1.05);
-    }
-    &-top {
-      img {
-        height: 22rem;
-        width: 100%;
-        object-fit: cover;
+    &__card {
+      border-radius: 0.5rem;
+      @include gradient-background;
+      box-shadow: 0 0 1.5rem $dark-color;
+      overflow: hidden;
+      transition: transform 0.3s;
+      &:hover {
+        transform: scale(1.05);
+      }
+      &-top {
+        img {
+          height: 22rem;
+          width: 100%;
+          object-fit: cover;
+        }
+      }
+      &-bottom {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 5rem;
+        padding: 1em;
+        overflow: hidden;
+        z-index: 0;
+      }
+      &-title {
+        font-size: 2rem;
+        text-transform: none;
       }
     }
-    &-bottom {
-      position: relative;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-      height: 15rem;
-      padding: 1em;
-      overflow: hidden;
-      z-index: 0;
-    }
-    &-title {
-      font-size: 2rem;
-      text-transform: none;
-    }
-    &-text {
-      margin: 0.5em 0;
-    }
-    &-link {
-      display: inline-block;
-      margin: 0 0.5em;
-      padding: 0.5em 1em;
-      background: none;
-      border: 1px solid $white-color;
-      color: $white-color;
-    }
-  }
 }
 // ---------------------process--------------------------------
 .slider {
