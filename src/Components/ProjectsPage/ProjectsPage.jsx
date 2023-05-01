@@ -4,7 +4,7 @@ import jupiter from "../../img/jupiter.avif";
 import blaster from "../../img/blaster.png";
 
 function ProjectsPage() {
-  const [value, setValue] = useState(50);
+  const [value, setValue] = useState(0);
   const [isActive, setIsActive] = useState(false);
   const [inactive, setInactive] = useState(false);
   const handleChange = (event) => {
@@ -108,14 +108,14 @@ function ProjectsPage() {
               </button>
               ))}
           </div>
-          <input
+          {/* <input
             type="range"
             min="1"
             max="100"
             value={value}
             onChange={handleChange}
             className="buttonGroup__range-input"
-          />
+          /> */}
         </div>
       </div>
     </>
