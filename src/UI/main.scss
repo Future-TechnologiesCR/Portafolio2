@@ -255,11 +255,8 @@ textarea {
       z-index: 0;
     }
     &-title {
-      font-size: 2rem;
+      font-size: 20px;
       text-transform: none;
-    }
-    &-text {
-      margin: 0.5em 0;
     }
     &-link {
       display: inline-block;
@@ -271,21 +268,12 @@ textarea {
     }
   }
 }
-.slick-slide {
-  margin: 0 27px;
-  max-width: 12rem;
-}
-
-.slick-slide img {
-  width: 100%;
-}
-
-
-
+.slick-list {margin: 0 -5px;}
+.slick-slide>div {padding: 0 10px;}
 // ------------------ SERVICES ------------------
 .services{
-  margin-bottom: 0;
   padding-bottom: 0;
+  margin-bottom: 0;
 
   &__title {
     margin-bottom: 1em;
@@ -294,6 +282,7 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 10px;
   }
     &__card {
       border-radius: 0.5rem;
@@ -306,7 +295,7 @@ textarea {
       }
       &-top {
         img {
-          height: 22rem;
+          height: 20rem;
           width: 100%;
           object-fit: cover;
         }
@@ -317,17 +306,19 @@ textarea {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        height: 5rem;
+        height: 12rem;
         padding: 1em;
         overflow: hidden;
         z-index: 0;
       }
       &-title {
-        font-size: 2rem;
-        text-transform: none;
+        font-size: 8px;
+      }
       }
     }
-}
+    .heading-underline {
+      font-size: 8px;
+    }
 // ---------------------process--------------------------------
 .slider {
   display: flex;
