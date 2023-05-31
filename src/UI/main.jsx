@@ -36,7 +36,6 @@ const Main = () => {
         </Routes>
         <Footer />
       </Router>
-      {/* Me Fui a Comer. :3 Perras */}
     </>
   );
 };

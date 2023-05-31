@@ -46,8 +46,7 @@ function Services() {
     ],
   };
   return (
-    <>   
-     <section className="services scroll-spy-section" id="services">
+      <section className="services scroll-spy-section" id="services">
       <h2 className="heading-underline">Servicios</h2>
       <div className="wrapper">
         <Slider {...settings} className="services__cards">
@@ -62,7 +61,7 @@ function Services() {
             <div className="services__card-bottom">
               <div className="shadow"></div>
               <h3 className="services__card-title heading-underline">
-                Sisea Page
+                Desarrollo Web
               </h3>
               <div className="shadow"></div>
             </div>
@@ -152,7 +151,6 @@ function Services() {
       <div className="block-left"></div>
       <div className="block-right"></div>
     </section>
-    </>
   );
 }
 

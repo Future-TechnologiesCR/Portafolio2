@@ -6,18 +6,18 @@ function Greeting() {
   return (
     <header className="header scroll-spy-section" id="home">
         <div className="header__text">
-          <h1 className="header__title">
-            <div>Hi! 👋🏻</div>
-            <div>We Are Future Technologies</div>
-          </h1>
+          <p className="header__title">
+            <div>
+              Hola! 👋🏻
+            </div>
+            <div>
+              Somos Future Technologies
+            </div>
+          </p>
           <p className="header__paragraph">
-            We are a Web Development Company and Hosting, we are here to help
-            you with your projects.
+            Somos una empresa Tecnológica especializada en el Desarrollo de páginas y plataformas web y servicios de Hosting, estamos aquí para ayudarte con tus proyectos.
           </p>
         </div>
-        {/* <a href="#about-me" className="header__link">
-          <i className="fa-solid fa-arrow-down header__link-arrow"></i>
-        </a> */}
         <NavLink to="#about-me" className="header__link">
           <i className="fa-solid fa-arrow-down header__link-arrow"></i>
         </NavLink>
