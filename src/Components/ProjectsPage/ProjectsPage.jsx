@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-import mercury from "../../img/mercury.avif";
-import jupiter from "../../img/jupiter.avif";
 import blaster from "../../img/blaster.png";
 
 function ProjectsPage() {
@@ -11,21 +9,30 @@ function ProjectsPage() {
     setValue(event.target.value);
   };
   const description = [
-    "Mercurio es el planeta más cercano al Sol y el más pequeño del sistema solar. Su órbita es la más excéntrica de todas, con una excentricidad de 0,21. Su nombre proviene del dios romano Mercurio, el mensajero de los dioses.",
-    "Jupiter es el planeta más grande del sistema solar, con una masa casi dos veces y media la de todos los demás planetas juntos. Su nombre proviene del dios romano Júpiter, el rey de los dioses.",
-    "Un quadcopter es un vehículo aéreo de cuatro rotores que se eleva y se propulsa mediante cuatro rotores. Los quadcopters son clasificados como helicópteros, ya que el motor de cada rotor los hace girar y los eleva.",
+    "Se presenta la empresa y se habla de los proceso que la empresa lleva a cabo para tomar un proyecto, se evacuan las preguntas del cliente con respecto a la empresa y por último se hablan de los compromisos por parte de la empresa y los compromisos por parte del cliente.",
+    "Toma de requerimientos del cliente: Se abordan los requerimientos del cliente, una vez obtenidos todos los requerimientos por parte del cliente se le pueden sugerir cosas pero sólosugerir.",
+    "Contrato con la empresa: Una vez confirmados todos los requerimientos se redacta un contrato personalizado con el cliente con todos los detalles del trabajo que va a realizar la empresa y las responsabilidades por parte de la empresa y el cliente.",
+    "Inicio de proyecto: Una vez firmado el contrato se da inicio al proyecto basándonos en los requerimientos obtenidos anteriormente.",
+    "Entregables: Se van a organizar reuniones semanales con el cliente para dar muestras del progreso del trabajo.",
+    "Entrega del proyecto: Se entrega el resultado final del proyecto y se ofrecen los servicios de hosting de la empresa y el servicios de mantenimiento y por último se le envía una encuesta de satisfacción de la empresa (Una encuesta con preguntas con relación a la experiencia como cliente de la empresa con el fin de conocer a nuestros clientes y mejorar su experiencia con la empresa).",
   ];
 
   const buttons = [
-    { value: 1, image: mercury },
-    { value: 50, image: jupiter },
+    { value: 1, image: blaster },
+    { value: 50, image: blaster },
     { value: 100, image: blaster },
+    { value: 150, image: blaster },
+    { value: 200, image: blaster },
+    { value: 250, image: blaster },
   ];
   
   const images = [
-    { src: mercury, description: description[0] },
-    { src: jupiter, description: description[1] },
+    { src: blaster, description: description[0] },
+    { src: blaster, description: description[1] },
     { src: blaster, description: description[2] },
+    { src: blaster, description: description[3] },
+    { src: blaster, description: description[4] },
+    { src: blaster, description: description[5] },
   ];
   const buttonNames = 
   // get the button names from the images src value
@@ -61,10 +68,6 @@ function ProjectsPage() {
 
   return (
     <>
-      <br />
-      <br />
-      <br />
-      <br />
       <div className="">
         <div className="slider">
           <div className="slider__image">
@@ -79,7 +82,7 @@ function ProjectsPage() {
             />
           </div>
           <div className="slider__text">
-            <h1 className="slider__text-heading">Proyectos</h1>
+            <h1 className="slider__text-heading">Procesos</h1>
             <p className={`slider__text-paragraph ${
                 inactive ? "slider__text-paragraph--inactive" : ""
               }`}

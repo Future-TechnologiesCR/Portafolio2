@@ -7,12 +7,10 @@ function Greeting() {
     <header className="header scroll-spy-section" id="home">
         <div className="header__text">
           <p className="header__title">
-            <div>
-              Hola! 👋🏻
-            </div>
-            <div>
+            <strong>
+              Hola! 👋🏻<br></br>
               Somos Future Technologies
-            </div>
+            </strong>
           </p>
           <p className="header__paragraph">
             Somos una empresa Tecnológica especializada en el Desarrollo de páginas y plataformas web y servicios de Hosting, estamos aquí para ayudarte con tus proyectos.
