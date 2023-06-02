@@ -42,7 +42,7 @@ function ProjectsPage() {
   ];
   const buttonNames = 
   // get the button names from the images src value
-  images.map((image) => image.src.split("/")[3].split(".")[0]);
+  images.map((image) => image.src.split("/")[image.src.split("/").length - 1].split(".")[0]);
 
   const getImage = () => {
     const thresholds = [50, 100, 150, 200, 250];
