@@ -7,7 +7,6 @@ const Resumen = () => {
 
       <div className='wrapper'>
         <div className='resume-container'>
-<<<<<<< HEAD
           {/* <div className='resume__title resume__section'> 
             <h2 className='resume__name'>
               Futures Technologies <hr />
@@ -15,8 +14,6 @@ const Resumen = () => {
               Information
             </h2>
           </div> */}
-=======
->>>>>>> Pedro
           <div className='resume__contact resume__section'>
             <h3 className='resume__card-heading'>
               Contact
@@ -67,7 +64,6 @@ const Resumen = () => {
               </li>
             </ul>
           </div>
-<<<<<<< HEAD
           {/* <div className='resume__skills resume__section'>
             <h3 className='resume__card-heading'>
               Skills and software
@@ -198,8 +194,6 @@ const Resumen = () => {
               </li>
             </ul>
           </div> */}
-=======
->>>>>>> Pedro
           <div className='resume__interests resume__section'>
             <h3 className='resume__card-heading'>
               Intereses Y Proyecciones Futuras
