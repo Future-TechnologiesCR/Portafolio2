@@ -45,14 +45,17 @@ function ProjectsPage() {
   images.map((image) => image.src.split("/")[3].split(".")[0]);
 
   const getImage = () => {
-    if (value < 34) {
-      return images[0];
-    } else if (value < 67) {
-      return images[1];
-    } else {
-      return images[2];
+    const thresholds = [50, 100, 150, 200, 250];
+    
+    for (let i = 0; i < thresholds.length; i++) {
+      if (value < thresholds[i]) {
+        return images[i];
+      }
     }
+  
+    return images[thresholds.length];
   };
+  
 
   const transitionTime = 1000;
   const transitionTimeInactive = 1000;
