@@ -1,5 +1,11 @@
 import React, { useEffect, useState } from "react";
 import blaster from "../../img/blaster.png";
+import uno from "../../img/Uno.webp";
+import dos from "../../img/Dos.webp";
+import tres from "../../img/Tres.webp";
+import cuatro from "../../img/Cuatro.webp";
+import cinco from "../../img/Cinco.webp";
+import seis from "../../img/Seis.webp";
 
 function ProjectsPage() {
   const [value, setValue] = useState(0);
@@ -18,21 +24,21 @@ function ProjectsPage() {
   ];
 
   const buttons = [
-    { value: 1, image: blaster },
-    { value: 50, image: blaster },
-    { value: 100, image: blaster },
-    { value: 150, image: blaster },
-    { value: 200, image: blaster },
-    { value: 250, image: blaster },
+    { value: 1, image: uno },
+    { value: 50, image: dos },
+    { value: 100, image: tres },
+    { value: 150, image: cuatro },
+    { value: 200, image: cinco },
+    { value: 250, image: seis },
   ];
   
   const images = [
-    { src: blaster, description: description[0] },
-    { src: blaster, description: description[1] },
-    { src: blaster, description: description[2] },
-    { src: blaster, description: description[3] },
-    { src: blaster, description: description[4] },
-    { src: blaster, description: description[5] },
+    { src: uno, description: description[0] },
+    { src: dos, description: description[1] },
+    { src: tres, description: description[2] },
+    { src: cuatro, description: description[3] },
+    { src: cinco, description: description[4] },
+    { src: seis, description: description[5] },
   ];
   const buttonNames = 
   // get the button names from the images src value

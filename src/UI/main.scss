@@ -317,7 +317,11 @@ textarea {
       }
     }
     .heading-underline {
-      font-size: 8px;
+      font-size: 30px;
+    }
+    .heading-underline h2 {
+      min-width: 30px;
+      max-width: 30px;
     }
 // ---------------------process--------------------------------
 .slider {
