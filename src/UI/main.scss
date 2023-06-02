@@ -494,7 +494,8 @@ textarea {
   .buttonGroup {
     flex-direction: column;
     align-items: center;
-    max-width: 70%;
+    max-width: 80%;
+    overflow: hidden;
     &__sliderRange {
       flex-direction: row;
       align-items: center;
@@ -504,6 +505,11 @@ textarea {
     &__button {
       margin: 0 0.5rem;
       max-width: 5rem;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 2rem;
+      font-size: 8px;
       justify-content: space-between;
       margin: 1rem;
       &-name {
