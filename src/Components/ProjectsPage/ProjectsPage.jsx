@@ -31,6 +31,8 @@ function ProjectsPage() {
     { value: 200, image: cinco },
     { value: 250, image: seis },
   ];
+
+  const names = ["uno", "dos", "tres", "cuatro", "cinco", "seis"];
   
   const images = [
     { src: uno, description: description[0] },
@@ -41,8 +43,8 @@ function ProjectsPage() {
     { src: seis, description: description[5] },
   ];
   const buttonNames = 
-  // get the button names from the images src value
-  images.map((image) => image.src.split("/")[image.src.split("/").length - 1].split(".")[0]);
+  // get the button names from the names array
+  buttons.map((button) => names[buttons.indexOf(button)]);
 
   const getImage = () => {
     const thresholds = [50, 100, 150, 200, 250];
