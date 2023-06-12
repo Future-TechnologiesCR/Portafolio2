@@ -32,8 +32,8 @@ function Services() {
       {
         breakpoint: 800,
         settings: {
-          slidesToShow: 2,
-          vertical: true,
+          slidesToShow: 1,
+          vertical: false,
           arrows: false,
           slidesToScroll: 1,
           spaceBetween: 30,
@@ -47,21 +47,22 @@ function Services() {
   const services = [
     {
       id: 1,
-      title: "Sisea Page",
+      title: "Desarrollo web",
       description:
-        "Pagina web para publicitar información de una institución que ofrece servicios de seguridad",
+        "Pagina web para publicitar información de una entidad que ofrece servicios de seguridad",
       img: logo,
     },
     {
       id: 2,
-      title: "Blog Personal",
+      title: "Desarrollo de Blogs",
       description: "Blog personal con información y opiniones sobre tecnología",
       img: logo,
     },
     {
       id: 3,
-      title: "Tienda Online",
-      description: "Tienda en línea para la venta de productos de tecnología",
+      title: "E-Commerce",
+      description:
+        "Tienda en línea para la venta de productos y servicios",
       img: logo,
     },
     {
@@ -73,16 +74,16 @@ function Services() {
     },
     {
       id: 5,
-      title: "Plataforma de Aprendizaje",
+      title: "Asesorías en Línea",
       description:
-        "Sistema para la enseñanza y aprendizaje de diferentes habilidades y temas",
+        "Servicios de asesoría en línea para la resolución de problemas",
       img: logo,
     },
     {
       id: 6,
-      title: "Calendario Compartido",
+      title: "Aplicaciones Móviles",
       description:
-        "Aplicación para compartir calendarios y gestionar eventos",
+        "Aplicación móvil para la gestión de servicios y productos",
       img: logo,
     },
     {
@@ -94,129 +95,39 @@ function Services() {
     },
     {
       id: 8,
-      title: "Plataforma de Reservas",
-      description:
-        "Sistema para la gestión de reservas y programación de citas",
-      img: logo,
-    },
-    {
-      id: 9,
       title: "Gestión de Proyectos",
       description:
-        "Plataforma para la gestión y seguimiento de proyectos y tareas",
-      img: logo,
-    },
-    {
-      id: 10,
-      title: "Portal de Empleo",
-      description:
-        "Portal en línea para la búsqueda y publicación de ofertas de empleo",
+        "Servicio de gestión de proyectos para la planificación y ejecución de proyectos",
       img: logo,
     },
   ];
 
   return (
       <section className="services scroll-spy-section" id="services">
-      <h2 className="heading-underline">Servicios</h2>
+      <h2 className="heading-underline" id="services">Servicios</h2>
       <div className="wrapper">
         <Slider {...settings} className="services__cards">
-          <div className="services__card">
-            <div className="services__card-top">
-              <img
-                src={logo}
-                alt="futuretechnologies"
-                className="services__card-img"
-              />
+          {services.map((service) => (
+            <div className="services__card" key={service.id}>
+              <div className="services__card-top">
+                <img
+                  src={service.img}
+                  alt={service.title}
+                  className="services__card-img"
+                />
+              </div>
+              <div className="services__card-bottom">
+                <div className="shadow"></div>
+                <h3 className="services__card-title heading-underline">
+                  {service.title}
+                </h3>
+                <p className="services__card-description">
+                  {service.description}
+                </p>
+              </div>
             </div>
-            <div className="services__card-bottom">
-              <div className="shadow"></div>
-              <h3 className="services__card-title heading-underline">
-                Sisea Page
-              </h3>
-              <div className="shadow"></div>
-            </div>
-          </div>
-          <div className="services__card">
-            <div className="services__card-top">
-              <img
-                src={logo}
-                alt="futuretechnologies"
-                className="services__card-img"
-              />
-            </div>
-            <div className="services__card-bottom">
-              <div className="shadow"></div>
-              <h3 className="services__card-title heading-underline">
-                Sisea Page
-              </h3>
-              <div className="shadow"></div>
-            </div>
-          </div>
-          <div className="services__card">
-            <div className="services__card-top">
-              <img
-                src={logo}
-                alt="futuretechnologies"
-                className="services__card-img"
-              />
-            </div>
-            <div className="services__card-bottom">
-              <div className="shadow"></div>
-              <h3 className="services__card-title heading-underline">
-                Sisea Page
-              </h3>
-              <div className="shadow"></div>
-            </div>
-          </div>
-          <div className="services__card">
-            <div className="services__card-top">
-              <img
-                src={logo}
-                alt="futuretechnologies"
-                className="services__card-img"
-              />
-            </div>
-            <div className="services__card-bottom">
-              <div className="shadow"></div>
-              <h3 className="services__card-title heading-underline">
-                Sisea Page
-              </h3>
-              <div className="shadow"></div>
-            </div>
-          </div>
-          <div className="services__card">
-            <div className="services__card-top">
-              <img
-                src={logo}
-                alt="futuretechnologies"
-                className="services__card-img"
-              />
-            </div>
-            <div className="services__card-bottom">
-              <div className="shadow"></div>
-              <h3 className="services__card-title heading-underline">
-                Sisea Page
-              </h3>
-              <div className="shadow"></div>
-            </div>
-          </div>
-          <div className="services__card">
-            <div className="services__card-top">
-              <img
-                src={logo}
-                alt="futuretechnologies"
-                className="services__card-img"
-              />
-            </div>
-            <div className="services__card-bottom">
-              <div className="shadow"></div>
-              <h3 className="services__card-title heading-underline">
-                Sisea Page
-              </h3>
-              <div className="shadow"></div>
-            </div>
-          </div>
-      </Slider>
+          ))}
+        </Slider>
       </div>
     </section>
   );

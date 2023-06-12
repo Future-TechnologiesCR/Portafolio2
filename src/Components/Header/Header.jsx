@@ -58,7 +58,7 @@ const Header = () => {
               <i className="fa-solid fa-tools"></i>Procesos
             </NavLink>
           </li>
-          <li>
+         {/*  <li>
             <NavLink
               to="/#projects"
               activeClassName="active"
@@ -66,7 +66,7 @@ const Header = () => {
             >
               <i className="fa-solid fa-laptop-code"></i>Proyectos
             </NavLink>
-          </li>
+          </li> */}
           <li>
             <NavLink
               // link to about us
@@ -83,7 +83,7 @@ const Header = () => {
               activeClassName="active"
               className="nav__link nav__link-desktop"
             >
-              <i className="fa-solid fa-at"></i> Cont&aacute;tanos
+              <i className="fa-solid fa-at"></i> Cont&aacute;ctanos
             </NavLink>
           </li>
         </ul>
@@ -114,12 +114,21 @@ const Header = () => {
             <NavLink
               to="/#services"
               activeClassName="active"
-              className="nav__link nav__link-desktop"
+              className="nav__link nav__link-mobile"
             >
               Servicios
             </NavLink>
           </li>
           <li>
+            <NavLink
+              to="/#processes"
+              activeClassName="active"
+              className="nav__link nav__link-mobile"
+            >
+              Procesos
+            </NavLink>
+          </li>
+{/*           <li>
             <NavLink
               to="/projects"
               activeClassName="active"
@@ -127,8 +136,8 @@ const Header = () => {
             >
               Procesos
             </NavLink>
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <NavLink
               to="/#projects"
               activeClassName="active"
@@ -136,7 +145,7 @@ const Header = () => {
             >
               Proyectos
             </NavLink>
-          </li>
+          </li> */}
           <li>
             <NavLink
               to="/#about-me"

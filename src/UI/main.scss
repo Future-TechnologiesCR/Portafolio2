@@ -215,18 +215,37 @@ textarea {
   }
 }
 
-.projects {
-  margin-bottom: 0;
-  padding-bottom: 0;
+.slick-list {
+  margin: 0 -5px;
+}
+.slick-slide > div {
+  padding: 0 10px;
+}
+.slick-slide img {
+  width: 100%;
+}
 
+// ------------------ SERVICES ------------------
+.services {
+  padding-bottom: 0;
+  min-width: 100%;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  &__title {
+    margin-bottom: 1em;
+  }
   &__cards {
     display: flex;
     justify-content: center;
+    flex-direction: row;
     align-items: center;
+    font-size: 10px;
   }
   &__card {
-    width: 30rem;
-    margin: 1em;
     border-radius: 0.5rem;
     @include gradient-background;
     box-shadow: 0 0 1.5rem $dark-color;
@@ -237,7 +256,7 @@ textarea {
     }
     &-top {
       img {
-        height: 22rem;
+        height: 20rem;
         width: 100%;
         object-fit: cover;
       }
@@ -248,80 +267,24 @@ textarea {
       flex-direction: column;
       justify-content: space-between;
       align-items: center;
-      height: 15rem;
+      height: 12rem;
       padding: 1em;
       overflow: hidden;
       z-index: 0;
     }
     &-title {
-      font-size: 20px;
-      text-transform: none;
+      font-size: 1.2rem;
+      margin-bottom: 0.5em;
+      width: 70% !important;
     }
-    &-link {
-      display: inline-block;
-      margin: 0 0.5em;
-      padding: 0.5em 1em;
-      background: none;
-      border: 1px solid $white-color;
-      color: $white-color;
+    &-description{
+      // font shrink depending on screen size
+      font-size: 1.2rem;
+      width: 70% !important;
     }
   }
 }
-.slick-list {margin: 0 -5px;}
-.slick-slide>div {padding: 0 10px;}
-// ------------------ SERVICES ------------------
-.services{
-  padding-bottom: 0;
-  margin-bottom: 0;
 
-  &__title {
-    margin-bottom: 1em;
-  }
-  &__cards {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 10px;
-  }
-    &__card {
-      border-radius: 0.5rem;
-      @include gradient-background;
-      box-shadow: 0 0 1.5rem $dark-color;
-      overflow: hidden;
-      transition: transform 0.3s;
-      &:hover {
-        transform: scale(1.05);
-      }
-      &-top {
-        img {
-          height: 20rem;
-          width: 100%;
-          object-fit: cover;
-        }
-      }
-      &-bottom {
-        position: relative;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        height: 12rem;
-        padding: 1em;
-        overflow: hidden;
-        z-index: 0;
-      }
-      &-title {
-        font-size: 8px;
-      }
-      }
-    }
-    .heading-underline {
-      font-size: 30px;
-    }
-    .heading-underline h2 {
-      min-width: 30px;
-      max-width: 30px;
-    }
 // ---------------------process--------------------------------
 .slider {
   display: flex;
@@ -491,6 +454,7 @@ textarea {
       }
     }
   }
+
   .buttonGroup {
     flex-direction: column;
     align-items: center;
@@ -520,8 +484,6 @@ textarea {
     }
   }
 }
-
-
 
 // ---------------------Process---------------------
 
