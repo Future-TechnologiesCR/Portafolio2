@@ -13,7 +13,7 @@ function Greeting() {
             </strong>
           </p>
           <p className="header__paragraph">
-            Somos una empresa Tecnológica especializada en el Desarrollo de páginas y plataformas web y servicios de Hosting, estamos aquí para ayudarte con tus proyectos.
+            Somos una empresa tecnológica especializada en el Desarrollo de páginas y plataformas web y servicios de Hosting, estamos aquí para ayudarte con todos tus proyectos.
           </p>
         </div>
         <NavLink to="#about-me" className="header__link">

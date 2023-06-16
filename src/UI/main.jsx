@@ -28,7 +28,6 @@ const Main = () => {
                 <Processes />
                 {/*<Projects /> */}
                 <About />
-                {/* Elimiar Resumen pero antes salvar la seccion de contact */}
                 <Resumen />
                 <Contact />
               </main>
