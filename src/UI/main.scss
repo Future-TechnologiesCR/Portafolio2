@@ -371,8 +371,7 @@ textarea {
   margin-bottom: 2rem;
   max-width: 100%;
   margin: auto;
-  margin-bottom: 2rem;
-  margin-top: 10px;
+  margin-top: 30px;
 
   &__sliderRange {
     display: flex;
@@ -402,7 +401,7 @@ textarea {
     img {
       max-width: 8rem;
       transition: transform 0.5s ease;
-      transform: scale(1);
+      transform: scale(1.3);
     }
     &-name {
       font-size: 200%;

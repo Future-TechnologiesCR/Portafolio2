@@ -115,9 +115,9 @@ function ProjectsPage() {
                   }`}
                 />
                 {/* button names */}
-                <p className="buttonGroup__button-name">
+                {/* <p className="buttonGroup__button-name">
                   {buttonNames[buttons.indexOf(button)]}
-                </p>
+                </p> */}
               </button>
               ))}
           </div>
