@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import blaster from "../../img/blaster.png";
 import uno from "../../img/Uno.webp";
 import dos from "../../img/Dos.webp";
 import tres from "../../img/Tres.webp";

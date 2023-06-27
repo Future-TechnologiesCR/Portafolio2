@@ -103,8 +103,8 @@ function Services() {
   ];
 
   return (
-      <section className="services scroll-spy-section" id="services">
-      <h2 className="heading-underline" id="services">Servicios</h2>
+    <section className="services section scroll-spy-section" id="services">
+      <h2 className="heading-underline">Servicios</h2>
       <div className="wrapper">
         <Slider {...settings} className="services__cards">
           {services.map((service) => (
@@ -118,7 +118,7 @@ function Services() {
               </div>
               <div className="services__card-bottom">
                 <div className="shadow"></div>
-                <h3 className="services__card-title heading-underline">
+                <h3 className="services__card-title">
                   {service.title}
                 </h3>
                 <p className="services__card-description">

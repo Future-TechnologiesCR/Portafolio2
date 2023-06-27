@@ -16,7 +16,7 @@ function Greeting() {
             Somos una empresa tecnológica especializada en el Desarrollo de páginas y plataformas web y servicios de Hosting, estamos aquí para ayudarte con todos tus proyectos.
           </p>
         </div>
-        <NavLink to="#about-me" className="header__link">
+        <NavLink to="#services" className="header__link">
           <i className="fa-solid fa-arrow-down header__link-arrow"></i>
         </NavLink>
       </header>

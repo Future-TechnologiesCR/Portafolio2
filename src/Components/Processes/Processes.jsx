@@ -9,7 +9,7 @@ function Processes() {
         <ProjectsPage />
       </div>
       <div className='block-left'></div>
-    <div className='block-right'></div>
+      <div className='block-right'></div>
     </section>
   )
 }
