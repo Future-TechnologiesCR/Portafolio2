@@ -47,57 +47,30 @@ function Services() {
   const services = [
     {
       id: 1,
-      title: "Desarrollo web",
+      title: "Desarrollo Web",
       description:
-        "Pagina web para publicitar información de una entidad que ofrece servicios de seguridad",
+        "Creación y mantenimiento de sitios web funcionales en internet.",
       img: logo,
     },
     {
       id: 2,
-      title: "Desarrollo de Blogs",
-      description: "Blog personal con información y opiniones sobre tecnología",
+      title: "Desarrollo móvil",
+      description: 
+        "Creación de software para teléfonos inteligentes y otros dispositivos digitales.",
       img: logo,
     },
     {
       id: 3,
-      title: "E-Commerce",
+      title: "Hosting",
       description:
-        "Tienda en línea para la venta de productos y servicios",
+        "Servicio de alojamiento para sitios web",
       img: logo,
     },
     {
       id: 4,
-      title: "Red Social",
+      title: "Mantenimiento de páginas web",
       description:
-        "Plataforma para conectar a personas con intereses comunes",
-      img: logo,
-    },
-    {
-      id: 5,
-      title: "Asesorías en Línea",
-      description:
-        "Servicios de asesoría en línea para la resolución de problemas",
-      img: logo,
-    },
-    {
-      id: 6,
-      title: "Aplicaciones Móviles",
-      description:
-        "Aplicación móvil para la gestión de servicios y productos",
-      img: logo,
-    },
-    {
-      id: 7,
-      title: "Sistema de Facturación",
-      description:
-        "Sistema para la gestión y facturación de servicios y productos",
-      img: logo,
-    },
-    {
-      id: 8,
-      title: "Gestión de Proyectos",
-      description:
-        "Servicio de gestión de proyectos para la planificación y ejecución de proyectos",
+        "Corrección de errores, optimizaciones y actualizaciones de páginas web",
       img: logo,
     },
   ];

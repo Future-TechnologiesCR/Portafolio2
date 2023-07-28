@@ -189,6 +189,10 @@ textarea {
   background-color: $dark-color;
   overflow-x: hidden;
 
+  &-heading {
+    text-align: center;
+  }
+
   &__card {
     display: flex;
     justify-content: center;
@@ -211,6 +215,19 @@ textarea {
     }
     &-paragraph {
       margin-bottom: 1em;
+    }
+    &-div {
+      display: flex;
+    }
+    &-ul1{
+      margin-left: 25%;
+    }
+    &-ul2{
+      margin-left: 50px;
+    }
+    &-li {
+      list-style: none;
+      display: flex;
     }
   }
 }
@@ -334,6 +351,7 @@ textarea {
     width: 40%;
     height: 500px;
     overflow-y: scroll;
+    scroll-margin-left: 10px;
     &::-webkit-scrollbar {
       width: 10px; /* Ancho de la barra de desplazamiento */
     }
@@ -344,7 +362,7 @@ textarea {
     }
 
     &::-webkit-scrollbar-track {
-      background-color: #f1f1f1; /* Color del track (fondo de la barra de desplazamiento) */
+      background-color: solid; /* Color del track (fondo de la barra de desplazamiento) */
     }
     // animation
 
@@ -578,6 +596,14 @@ textarea {
   // }
 }
 
+.about-me {
+  &__card {
+    &-ul1{
+    margin-left: 5%;
+    }
+  }
+}
+  
 .contact {
   position: relative;
   margin-bottom: 0;

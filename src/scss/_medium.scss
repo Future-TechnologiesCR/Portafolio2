@@ -74,5 +74,12 @@
       display: flex;
       flex-wrap: wrap;
     }
+    .about-me {
+      &__card {
+        &-ul1{
+        margin-left: 5%;
+        }
+      }
+    }
   }
 }

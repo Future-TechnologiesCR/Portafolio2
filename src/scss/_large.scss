@@ -7,7 +7,7 @@
 
   .header {
     &__title {
-      font-size: 8rem;
+      font-size: 7rem;
     }
     &__link {
       width: 8rem;
@@ -40,9 +40,11 @@
         width: 40%;
         margin: 0 3em 0 0;
       }
+      &-ul1{
+        margin-left: 25%;
+        }
     }
   }
-
   .projects {
     &__card {
       &-title {

@@ -9,11 +9,11 @@ function Greeting() {
           <p className="header__title">
             <strong>
               Hola! 👋🏻<br></br>
-              Somos Future Technologies
+              Somos Future Technologies CR
             </strong>
           </p>
           <p className="header__paragraph">
-            Somos una empresa tecnológica especializada en el Desarrollo de páginas y plataformas web y servicios de Hosting, estamos aquí para ayudarte con todos tus proyectos.
+            Somos una empresa tecnológica especializada en el Desarrollo Web y servicios de Hosting, estamos aquí para ayudarte con todos tus proyectos.
           </p>
         </div>
         <NavLink to="#services" className="header__link">

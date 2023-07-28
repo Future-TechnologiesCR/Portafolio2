@@ -15,7 +15,7 @@ function ProjectsPage() {
   };
   const description = [
     "Se presenta la empresa y se habla de los proceso que la empresa lleva a cabo para tomar un proyecto, se evacuan las preguntas del cliente con respecto a la empresa y por último se hablan de los compromisos por parte de la empresa y los compromisos por parte del cliente.",
-    "Toma de requerimientos del cliente: Se abordan los requerimientos del cliente, una vez obtenidos todos los requerimientos por parte del cliente se le pueden sugerir cosas pero sólosugerir.",
+    "Toma de requerimientos del cliente: Se abordan los requerimientos del cliente, una vez obtenidos todos los requerimientos por parte del cliente se le pueden sugerir cosas pero sólo sugerir.",
     "Contrato con la empresa: Una vez confirmados todos los requerimientos se redacta un contrato personalizado con el cliente con todos los detalles del trabajo que va a realizar la empresa y las responsabilidades por parte de la empresa y el cliente.",
     "Inicio de proyecto: Una vez firmado el contrato se da inicio al proyecto basándonos en los requerimientos obtenidos anteriormente.",
     "Entregables: Se van a organizar reuniones semanales con el cliente para dar muestras del progreso del trabajo.",
