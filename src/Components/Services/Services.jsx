@@ -1,5 +1,8 @@
 import React from "react";
-import logo from "../../img/future.webp";
+import hosting from "../../img/Hosting-p.png";
+import mantenimiento from "../../img/Mantenimiento-p.png";
+import movil from "../../img/Movil-p.png";
+import web from "../../img/Web-p.png";
 import { HashLink as NavLink } from "react-router-hash-link";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -50,28 +53,28 @@ function Services() {
       title: "Desarrollo Web",
       description:
         "Creación y mantenimiento de sitios web funcionales en internet.",
-      img: logo,
+      img: web,
     },
     {
       id: 2,
       title: "Desarrollo móvil",
       description: 
         "Creación de software para teléfonos inteligentes y otros dispositivos digitales.",
-      img: logo,
+      img: movil,
     },
     {
       id: 3,
       title: "Hosting",
       description:
         "Servicio de alojamiento para sitios web",
-      img: logo,
+      img: hosting,
     },
     {
       id: 4,
       title: "Mantenimiento de páginas web",
       description:
         "Corrección de errores, optimizaciones y actualizaciones de páginas web",
-      img: logo,
+      img: mantenimiento,
     },
   ];
 
