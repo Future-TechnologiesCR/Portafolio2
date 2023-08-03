@@ -36,7 +36,7 @@ const About = () => {
                   <li className="about-me__card-li">Honestidad</li>
                 </ul>
             </div>  
-            {/* <NavLink to="/aboutus" className="btn btn--primary">
+            {/* <NavLink to="/about us" className="btn btn--primary">
               Leer más
             </NavLink> */}
           </div>

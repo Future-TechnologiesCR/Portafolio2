@@ -16,7 +16,7 @@ const Resumen = () => {
           </div> */}
           <div className='resume__contact resume__section'>
             <h3 className='resume__card-heading'>
-              Contact
+              Contáctenos 
               <div className='shadow'></div>
             </h3>
             <ul className='resume__list'>
@@ -209,8 +209,6 @@ const Resumen = () => {
               <li className='resume__list-item'>
                 Formar alianzas con grandes empresas 
               </li>
-              <li className='resume__list-item'>Tener un gran equipo de desarrolladorees </li>
-              <li className='resume__list-item'>Formar una comunidad de programadores</li>
             </ul>
           </div>
         </div>

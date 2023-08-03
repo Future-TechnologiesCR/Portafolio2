@@ -14,12 +14,12 @@ function ProjectsPage() {
     setValue(event.target.value);
   };
   const description = [
-    "Se presenta la empresa y se habla de los proceso que la empresa lleva a cabo para tomar un proyecto, se evacuan las preguntas del cliente con respecto a la empresa y por último se hablan de los compromisos por parte de la empresa y los compromisos por parte del cliente.",
-    "Toma de requerimientos del cliente: Se abordan los requerimientos del cliente, una vez obtenidos todos los requerimientos por parte del cliente se le pueden sugerir cosas pero sólo sugerir.",
+    "Se presenta la empresa y se habla de los procesos que la empresa lleva a cabo para tomar un proyecto, se evacuan las preguntas del cliente con respecto a la empresa y por último se hablan de los compromisos por parte de la empresa y los compromisos por parte del cliente.",
+    "Toma de requerimientos del cliente: Se abordan los requerimientos del cliente, una vez obtenidos todos los requerimientos por parte del cliente se le pueden sugerir mejoras.",
     "Contrato con la empresa: Una vez confirmados todos los requerimientos se redacta un contrato personalizado con el cliente con todos los detalles del trabajo que va a realizar la empresa y las responsabilidades por parte de la empresa y el cliente.",
     "Inicio de proyecto: Una vez firmado el contrato se da inicio al proyecto basándonos en los requerimientos obtenidos anteriormente.",
     "Entregables: Se van a organizar reuniones semanales con el cliente para dar muestras del progreso del trabajo.",
-    "Entrega del proyecto: Se entrega el resultado final del proyecto y se ofrecen los servicios de hosting de la empresa y el servicios de mantenimiento y por último se le envía una encuesta de satisfacción de la empresa (Una encuesta con preguntas con relación a la experiencia como cliente de la empresa con el fin de conocer a nuestros clientes y mejorar su experiencia con la empresa).",
+    "Entrega del proyecto: Se entrega el resultado final del proyecto y se ofrecen los servicios de hosting de la empresa y los servicios de mantenimiento y por último se le envía una encuesta de satisfacción de la empresa (Una encuesta con preguntas con relación a la experiencia como cliente de la empresa con el fin de conocer a nuestros clientes y mejorar su experiencia con la empresa).",
   ];
 
   const buttons = [
@@ -69,7 +69,7 @@ function ProjectsPage() {
   }, [value]);
 
   useEffect(() => {
-    // dont use timeout for this
+    // don't use timeout for this
     setInactive(true);
     setTimeout(() => {
       setInactive(false);
