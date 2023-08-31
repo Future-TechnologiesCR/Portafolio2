@@ -63,7 +63,6 @@ const Projects = () => {
           </div>
         ))}
       </Slider>
-      {/* es posible */}
     </section>
   );
 };
