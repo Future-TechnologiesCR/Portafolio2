@@ -3,7 +3,7 @@ import { HashLink as NavLink } from "react-router-hash-link";
 import "../../UI/main.scss";
 import logo from "../../img/future.webp";
 
-function AboutUs() {
+function ProyectsPage() {
   return (
     <>
       <br />
@@ -72,4 +72,4 @@ function AboutUs() {
   );
 }
 
-export default AboutUs;
+export default ProyectsPage;

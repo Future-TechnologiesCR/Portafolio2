@@ -5,12 +5,11 @@ import Greeting from "../Components/Header/Greeting";
 import Services from "../Components/Services/Services";
 import Processes from "../Components/Processes/Processes";
 import Projects from "../Components/Projects/Projects";
-import AboutUs from "../Components/AboutUs/AboutUs";
+import ProyectsPage from "../Components/ProyectsPage/ProyectsPage";
 import Contact from "../Components/Contact/Contact";
 import Footer from "../Components/Footer/Footer";
 import Resumen from "../Components/Resumen/Resumen";
-import ProjectsPage from "../Components/ProjectsPage/ProjectsPage";
-import About from "../Components/About/About";
+import About from "../Components/About Us/About Us";
 import "./main.scss";
 
 const Main = () => {
@@ -26,15 +25,15 @@ const Main = () => {
                 <Greeting />
                 <Services />
                 <Processes />
-                {/*<Projects /> */}
+                <Projects />
                 <About />
                 <Resumen />
                 <Contact />
               </main>
             }
           />
-          <Route path="/aboutus" element={<AboutUs />} />
-          <Route path="/services" element={<ProjectsPage />} />
+          <Route path="/projectspage" element={<ProyectsPage />} />
+          {/* <Route path="/services" element={<ProjectsPage />} /> */}
         </Routes>
         <Footer />
       </Router>

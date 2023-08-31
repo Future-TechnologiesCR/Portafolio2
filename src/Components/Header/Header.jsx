@@ -1,8 +1,8 @@
 import React from "react";
 import "./Header.scss";
 import { HashLink as NavLink } from "react-router-hash-link";
-import ProjectsPage from "../ProjectsPage/ProjectsPage";
-import AboutUs from "../AboutUs/AboutUs";
+import ProjectsPage from "../ProcessPage/ProcessPage";
+import AboutUs from "../ProyectsPage/ProyectsPage";
 import logo from "../../img/future.webp";
 
 const Header = () => {
@@ -58,7 +58,7 @@ const Header = () => {
               <i className="fa-solid fa-tools"></i>Procesos
             </NavLink>
           </li>
-         {/*  <li>
+          <li>
             <NavLink
               to="/#projects"
               activeClassName="active"
@@ -66,10 +66,9 @@ const Header = () => {
             >
               <i className="fa-solid fa-laptop-code"></i>Proyectos
             </NavLink>
-          </li> */}
+          </li>
           <li>
             <NavLink
-              // link to about us
               to="/#about-me"
               activeClassName="active"
               className="nav__link nav__link-desktop"
@@ -83,7 +82,7 @@ const Header = () => {
               activeClassName="active"
               className="nav__link nav__link-desktop"
             >
-              <i className="fa-solid fa-at"></i> Cont&aacute;ctanos
+              <i className="fa-solid fa-at"></i> Contáctanos
             </NavLink>
           </li>
         </ul>
@@ -128,16 +127,16 @@ const Header = () => {
               Procesos
             </NavLink>
           </li>
-{/*           <li>
+          {/* <li>
             <NavLink
               to="/projects"
               activeClassName="active"
               className="nav__link nav__link-desktop"
             >
-              Procesos
+              Proyectos
             </NavLink>
           </li> */}
-          {/* <li>
+          <li>
             <NavLink
               to="/#projects"
               activeClassName="active"
@@ -145,7 +144,7 @@ const Header = () => {
             >
               Proyectos
             </NavLink>
-          </li> */}
+          </li>
           <li>
             <NavLink
               to="/#about-me"
@@ -155,23 +154,13 @@ const Header = () => {
               Quienes somos
             </NavLink>
           </li>
-          {/* <li>
-            //Eliminar de la hamburguesa
-            <NavLink
-              to="/#resume"
-              activeClassName="active"
-              className="nav__link nav__link-mobile"
-            >
-              Resume
-            </NavLink>
-          </li> */}
           <li>
             <NavLink
               to="/#contact"
               activeClassName="active"
               className="nav__link nav__link-mobile"
             >
-              Cont&aacute;tanos
+              Contáctanos
             </NavLink>
           </li>
         </ul>

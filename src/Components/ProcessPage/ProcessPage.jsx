@@ -6,7 +6,7 @@ import cuatro from "../../img/Cuatro.webp";
 import cinco from "../../img/Cinco.webp";
 import seis from "../../img/Seis.webp";
 
-function ProjectsPage() {
+function ProcessPage() {
   const [value, setValue] = useState(0);
   const [isActive, setIsActive] = useState(false);
   const [inactive, setInactive] = useState(false);
@@ -135,4 +135,4 @@ function ProjectsPage() {
   );
 }
 
-export default ProjectsPage;
+export default ProcessPage;

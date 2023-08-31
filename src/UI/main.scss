@@ -468,6 +468,7 @@ textarea {
   }
 }
 @media screen and (max-width: 768px) {
+  // Esta media query se aplica cuando el ancho de la pantalla es menor a 768px
   .slider {
     flex-direction: column;
     align-items: center;
@@ -519,7 +520,25 @@ textarea {
   }
 }
 
-// ---------------------Process---------------------
+// ---------------------Projects-------------------------------------------------
+.projects {
+  margin: 0rem 0rem -2rem 0rem;
+} 
+
+.logos {
+    justify-content: space-between;
+    align-items: center;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    margin: 2rem 
+}
+
+.logo {
+  display: flex;
+  object-fit: contain;
+  width: 50%;
+}
 
 // ---------------------Resume---------------------
 
