@@ -32,6 +32,14 @@ const Resumen = () => {
                 >
                   <i className='fa-brands fa-whatsapp'></i>
                 </a>
+
+                <a
+                  className='resume__link resume__icon'
+                  href='tel: +506 7160-4404'
+                  target='_blank'
+                >
+                  <i class="fa-solid fa-phone"></i>
+                </a>
                 
                 <a
                   className='resume__link resume__icon'

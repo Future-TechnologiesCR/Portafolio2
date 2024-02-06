@@ -273,7 +273,7 @@ textarea {
     }
     &-top {
       img {
-        height: 20rem;
+        height: 30rem;
         width: 100%;
         object-fit: cover;
       }
@@ -581,7 +581,7 @@ textarea {
     }
   }
   &__icon {
-    padding: 0.5em;
+    padding: 0.5em 1rem;
     font-size: 2rem;
     transition: color 0.3s;
 
